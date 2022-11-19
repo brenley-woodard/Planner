@@ -1,6 +1,6 @@
 :root {
-    --background: rgb(224, 234, 247);
-    --header-background: rgb(254, 251, 245);
+    --background: #efe5dc;
+    --header-background: #d0b8ac;
     --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
 }
@@ -32,4 +32,21 @@ header .logo {
 
 main {
     padding: 20px;
+}
+
+.item-input {
+    display: grid;
+    width: 120px;
+}
+
+.item-box {
+    background-color: #fbfefb;
+    width: 120px;
+    border-radius: 15px;
+}
+
+.input {
+    background-color: #fbfefb;
+    border-radius: 15px;
+    width: 120px;
 }
